@@ -5,3 +5,6 @@
 - Creating DB & Entities:
     - php bin/console doctrine:database:create
     - php bin/console make:entity || symfony console make:user
+- php bin/console make:migration
+- php bin/console doctrine:migrations:migrate
+- 
